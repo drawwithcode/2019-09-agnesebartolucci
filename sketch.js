@@ -14,17 +14,17 @@ var answers1 = ["'Thanks to Venus in Cancer,",
     "'Thanks to Sun in Pisces,",];
 var randomtext1;
 var answers2 = ["you will fall in love with an as*hole'",
-    "is better for you to not eat salad'",
+    "is better for you not to eat salad'",
     "today is going to be a s*itty day'",
     "your drunk ex will call you soon'",
-    "keep in mind: you will NEED a toilet",
-    "is going to be an hot night, baby'",
+    "keep in mind: you will NEED a toilet'",
+    "it’s going to be a hot night, baby'",
     "watch out for those little parrots'",
     "you will never win that, come on!'",
     "you MUST not walk outside the lines'",
-    "your money will fly away, again'",
-    "your work will never end to s*ck'",
-    "you can only run away: don't stop.'",];
+    "your wallet will be empty, again'",
+    "your job will never stop s*cking'",
+    "you can only run away: don't stop'",];
 var randomtext2;
 
 
@@ -65,7 +65,7 @@ function draw() {
     fill('black');
     text(myText3, width / 2, 270);
 
-    var myText4 = "*Yes, my roomate again";
+    var myText4 = "*Yes, my roommate again";
     drawingContext.font = "30px Work Sans";
     drawingContext.textAlign = "center";
     fill('white');
